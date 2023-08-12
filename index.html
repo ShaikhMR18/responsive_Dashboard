@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cdn font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      
+    ></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section id="menu">
+      <div class="logo">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDfiyWFdbKrZJ9lRV1rQzxWzE5GixWO5Qq5Q&usqp=CAU"
+          alt=""
+        />
+        <h2>Admin panel</h2>
+      </div>
+      <div class="items">
+        <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
+        <li><i class="fa-brands fa-elementor"></i><a href="#">Elements</a></li>
+        <li><i class="fa-solid fa-table-list"></i><a href="#">Tables</a></li>
+        <li><i class="fa-brands fa-wpforms"></i><a href="#">Forms</a></li>
+        <li><i class="fa-regular fa-credit-card"></i><a href="#">Cards</a></li>
+        <li><i class="fa-solid fa-book"></i><a href="#">Modal</a></li>
+        <li><i class="fa-brands fa-intercom"></i><a href="#">Blank</a></li>
+      </div>
+    </section>
+
+    <section id="interface">
+      <div class="navigation">
+        <div class="n1">
+          <div>
+            <i id="menu-btn" class="fa-solid fa-bars"></i>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="search" />
+          </div>
+        </div>
+
+        <div class="profile">
+          <i class="fa-regular fa-bell"></i>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+      <h3 class="i-name">Dashboard</h3>
+      <div class="values">
+        <div class="value-box">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>New users</span>
+          </div>
+        </div>
+        <div class="value-box">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>Total orders</span>
+          </div>
+        </div>
+        <div class="value-box">
+          <i class="fa-solid fa-check"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>Product sell</span>
+          </div>
+        </div>
+        <div class="value-box">
+          <i class="fa-regular fa-money-bill-1"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>This Month</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="board">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Title</td>
+              <td>Status</td>
+              <td>Role</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9M0oaLOJnPwiSHOcThR_EAdFHwNledDV7Yw&usqp=CAU"
+                  alt=""
+                />
+                <div class="people-desc">
+                  <h5>jhon</h5>
+                  <p>jhon@example.com</p>
+                </div>
+              </td>
+              <td class="people-des">
+                <h5>Software Engineer</h5>
+                <p>web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td>
+                <p>owner</p>
+              </td>
+              <td class="edit"><a href="">Edit</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="./index.js"></script>
+    <script>
+        $('#menu-btn').click(function(){
+            $("#menu").toggleClass("active");
+        })
+    </script>
+  </body>
+</html>
