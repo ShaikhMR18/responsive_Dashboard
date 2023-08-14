@@ -290,6 +290,8 @@ tbody tr td {
     border-collapse: collapse;
   }
 }
+
+
 @media (max-width: 477px) {
   #interface .navigation {
     padding: 15px;
